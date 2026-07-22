@@ -1,0 +1,17 @@
+{
+  "name": "local-outlook-mail-console",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node src/server/index.js",
+    "desktop": "node desktop/launch-app.mjs",
+    "test": "node --test tests/*.test.js"
+  },
+  "dependencies": {
+    "mailparser": "^3.7.4"
+  },
+  "devDependencies": {
+    "playwright": "^1.61.1"
+  }
+}

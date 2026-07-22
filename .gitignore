@@ -1,0 +1,45 @@
+# Dependencies and generated packages
+node_modules/
+outputs/
+dist/
+build/
+work/
+
+# Local Codex metadata
+.agents/
+.codex/
+
+# Runtime state and private account data
+data/
+edge-profile/
+logs/
+*.key
+*.pem
+*.pfx
+*.p12
+*.db
+*.sqlite
+*.sqlite-*
+*.enc
+*.token
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Test and diagnostic output
+coverage/
+test-results/
+playwright-report/
+blob-report/
+*.log
+
+# Built desktop artifacts
+*.exe
+*.zip
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
